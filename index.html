@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Registratio</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <div class="container">
+        <form id="form">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">UserName</label>
+                <input id="username" name="username" type="text" value="">
+                <div id="nameError"></div>
+          </div>
+          
+          <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text" value="">
+            <div id="emailError"></div>
+            </div>
+            
+          <div class="input-control">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" value="">
+            <div id="passwordError"></div>
+            </div>
+
+            <div class="input-control">
+              <label for="password">Password again</label>
+              <input id="password2" name="password2" type="password" value="">
+              <div id="password2Error"></div>
+              </div>
+            
+              <div class="control">
+              <label for="gender">Gender</label><br>
+              <input id="gender" name="render"  type="radio">Male
+              <input id="gender" name="render" type="radio">Female
+              <input id="gender" name="render" type="radio">Others
+              <div id="error"></div>
+              </div>
+              
+          <div class="input-control">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="text" value="">
+            <div id="phoneError"></div>
+            </div>
+            
+          <div class="input-control">
+            <label for="date">Date of Birth</label>
+            <input id="date" name="date of birth" type="date" >
+            <div id="dateError"></div>
+            </div>
+            
+            <button type="button" id="btn">Submit</button>
+        </form>
+    <script src="function.js"></script>
+</div>
+</body>

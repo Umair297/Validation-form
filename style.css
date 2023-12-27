@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient( to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+#form{
+    width: 300px;
+    margin: 0vh auto 0 auto;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.808);
+    border-radius: 4px;
+    font-size: 12px;
+}
+#form h1{
+    color: #0f2027;
+    text-align: center;
+}
+#nameError{
+    color:red;
+}
+#emailError{
+    color:red;
+}
+#passwordError{
+    color:red;
+}
+#password2Error{
+    color:red;
+}
+#phoneError{
+    color:red;
+}
+#dateError{
+    color:red;
+}
+#form button{
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    color: black;
+    background-color: rgb(0, 238, 255);
+    border: none;
+    border-radius:8px;
+}
+.input-control {
+    display :flex;
+    flex-direction: column;
+}
+.input-control input{
+    border:2px solid #f0f0f0a1;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 90%;
+    background-color: #ffffff;
+}
+label{
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.control{
+    margin: 8px;
+}
+#gender{
+    margin-right: 5px;
+    margin-top: 10px;
+}
